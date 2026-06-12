@@ -1,8 +1,8 @@
-from schema_guard.normailze import normalize_schema
-from schema_guard.compare import compare_schema
-from schema_guard.classify import classify_schema_diff
-from schema_guard.report import check_schema_transfer,format_result
-from schema_guard.report import compare_tables
+from schema_guard.core.normalize import normalize_schema
+from schema_guard.core.compare import compare_schema
+from schema_guard.core.classify import classify_schema_diff
+from schema_guard.core.report import check_schema_transfer,format_result
+from schema_guard.core.report import compare_tables
 import pytest
 
 old_schema = {"id" : {"type":"STRING","nullable":True},"amount":{"type":"Double"},"mode":{"type":"STRING"}}

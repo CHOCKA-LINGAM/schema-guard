@@ -1,7 +1,7 @@
 import argparse
 import json
 
-from schema_guard.report import check_schema_transfer, format_result
+from schema_guard.core.report import check_schema_transfer, format_result
 
 
 def load_schema(file_path: str) -> dict:

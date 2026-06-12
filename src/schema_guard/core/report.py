@@ -1,6 +1,6 @@
-from schema_guard.normailze import normalize_schema
-from schema_guard.compare import compare_schema
-from schema_guard.classify import classify_schema_diff
+from schema_guard.core.normalize import normalize_schema
+from schema_guard.core.compare import compare_schema
+from schema_guard.core.classify import classify_schema_diff
 
 def check_schema_transfer(old_schema:dict, new_schema:dict)->dict:
     """
