@@ -1,6 +1,6 @@
-# Schema Guard
+# Schema Shield
 
-Schema Guard is a lightweight Python utility for **schema compatibility validation** and **transfer safety checks** in data pipelines.
+Schema Shield is a lightweight Python utility for **schema compatibility validation** and **transfer safety checks** in data pipelines.
 
 It helps answer a practical question:
 
@@ -8,7 +8,7 @@ It helps answer a practical question:
 
 ---
 
-## Why Schema Guard?
+## Why Schema Shield?
 
 Most schema diff tools can tell you:
 
@@ -20,7 +20,7 @@ But data engineers often need one more answer:
 
 > **Is this change safe, risky, or breaking?**
 
-Schema Guard is built to provide that classification layer.
+Schema Shield is built to provide that classification layer.
 
 ---
 
